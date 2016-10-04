@@ -1,0 +1,194 @@
+a:link, a:visited {
+	color: inherit;
+}
+a:hover, a:active {
+	color: #000;
+	text-decoration: underline;
+}
+
+body {
+	font-family: 'Assistant', sans-serif;
+	font-weight: lighter;
+	margin: 1em 4em;
+	color: #888;
+}
+
+main > h1, header > h1 {
+	font-weight: lighter;
+	font-size: 28px;
+	margin: 0.5em 0;
+	padding: 0 0 0.25em 0;
+	border-bottom: solid #e0e0e0 1px;
+	color: #000;
+}
+
+main > h2, header > h2 {
+	font-weight: lighter;
+	font-size: 14px;
+	margin: 0.5em 0;
+	color: #666;
+}
+main > section {
+	clear: both;
+	margin-top: 2em;
+}
+main p {
+	max-width: 60em;
+	line-height: 1.4;
+}
+main > section > h1 {
+	font-weight: lighter;
+	font-size: 24px;
+	margin: 0.5em 0;
+	color: #000;
+}
+header {
+	padding-right: 156px;
+	min-height: 156px;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-size: 128px 128px;
+	background-image: url('avatar.jpeg');
+}
+
+main {
+	margin-top: -5.5em;
+}
+
+section.project {
+	width: 300px;
+	max-width: 100%;
+	float: left;
+	margin: 0 32px 8px 0;
+}
+
+section.experience {
+	padding-left: 156px;
+	min-height: 128px;
+	margin-left: 0;
+	padding-top: 1em;
+	border-top: solid #e0e0e0 1px;
+	background-repeat: no-repeat;
+	background-position: 0 16px;
+	background-size: 128px 128px;
+}
+	
+section.project > h1 {
+	margin: 0.5em 0;
+	padding: 0;
+	font-weight: lighter;
+	font-size: 20px;
+	color: #444;
+	padding-top: 1em;
+	border-top: solid #e0e0e0 1px;
+}
+section.experience > h1 {
+	margin: 0.5em 0;
+	padding: 0;
+	font-weight: lighter;
+	font-size: 20px;
+	color: #444;
+}
+
+section.project > h1 {
+	height: 2.5em;
+}
+section.experience > h2 {
+	margin: -0.5em 0 0.5em 0;
+	padding: 0;
+	font-weight: lighter;
+	font-size: 16px;
+	color: #666;
+}
+section.experience > h2 > a:link, section.experience > h2 > a:visited {
+	color: inherit !important;
+	text-decoration: inherit;
+}
+section.experience > h2 > a:hover, section.experience > h2 > a:active {
+	color: #000;
+	text-decoration: underline;
+}
+
+h1 > a:link, h1 > a:visited {
+	color: inherit !important;
+	text-decoration: inherit !important;
+}
+section.project > div.img {
+}
+section.project > div.img img {
+	display: block;
+	width: 100%;
+	border: none !important;
+}
+/* section.project > ul, section.project li {
+	list-style: none;
+	padding: 0;
+	margin: 1em 0 1em 0;
+	color: #888;
+} */
+section.project > ul {
+	min-height: 9.5em;
+}
+section.project li {
+	margin: 0.5em 0 0.5em 0;
+}
+
+section.project li.role>span.i {
+	color: #000;
+	font-weight: normal;
+}
+section.project li.link {
+	word-wrap: break-word;
+}
+section#contact ul, section#contact li {
+	list-style: none;
+	padding: 0;
+	margin: 0.25em 2em 0.25em 0;
+}
+span.logo {
+	font-size: 0;
+	color: transparent;
+	width: 0;
+}
+
+@media screen and (max-width: 65em) {
+	header {
+		background-size: 96px 96px;
+		padding-right: 100px;
+	}
+}
+
+@media screen and (max-width: 40em) {
+
+	body {
+		margin: 1em auto;
+		width: 95%;
+		max-width: 300px;
+	}
+	
+	header {
+		background-size: 64px 64px;
+		padding-right: 72px;
+	}
+
+	section.project {
+		float: none;
+		width: 100%;
+	}
+
+	section.project > ul {
+		min-height: 0;
+	}
+
+	section.experience {
+		background-image: none !important;
+		min-height: 0;
+		padding-left: inherit !important;		
+	}
+
+}
+@media screen and (min-width: 30em) {
+	body {
+		margin: 1em 2em;
+	}
+}
