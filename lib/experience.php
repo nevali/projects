@@ -127,6 +127,10 @@ foreach($experience as $key => $info)
 	$basepath = dirname(__FILE__) . '/../projects/' . $info['name'] . '/';
 	echo '<ul class="fa-ul"';
 	echo ">\n";
+	if(isset($info['note']))
+	{
+		echo '<li class="note"><span class="fa fa-li fa-exclamation-circle"></span>' . _e($info['note']) . '</li>';
+	}
 	$date = humandate($info);
 	if($date !== false && strlen($date))
 	{
