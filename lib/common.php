@@ -3,6 +3,20 @@
 ini_set('display_errors', 'On');
 error_reporting(E_ALL);
 
+$internal = false;
+
+if(isset($_REQUEST['internal']))
+{
+	if(file_exists(dirname(__FILE__) . '/internal-key.txt'))
+	{
+		$key = trim(readfile(dirname(__FILE__) . '/internal-key.txt'));
+		if(!strcmp($key, $_REQUEST['internal']))
+		{
+			$internal = true;
+		}
+	}
+}
+
 function e($str)
 {
 	echo htmlspecialchars($str, ENT_QUOTES, 'UTF-8');
