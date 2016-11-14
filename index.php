@@ -17,7 +17,16 @@
 		</header>
 		<main>
 	 		<section id="profile">
-<?php readfile(dirname(__FILE__) . '/parts/_profile.html'); ?>
+<?php
+if($internal)
+{
+	readfile(dirname(__FILE__) . '/parts/_profile-internal.html');
+}
+else
+{
+	readfile(dirname(__FILE__) . '/parts/_profile.html');
+}
+?>
 	 		</section>
 
 	 		<section id="contact">
