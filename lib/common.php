@@ -9,7 +9,7 @@ if(isset($_REQUEST['internal']))
 {
 	if(file_exists(dirname(__FILE__) . '/internal-key.txt'))
 	{
-		$key = trim(readfile(dirname(__FILE__) . '/internal-key.txt'));
+		$key = trim(file_get_contents(dirname(__FILE__) . '/internal-key.txt'));
 		if(!strcmp($key, $_REQUEST['internal']))
 		{
 			$internal = true;
