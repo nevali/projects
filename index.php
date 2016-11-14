@@ -28,6 +28,11 @@
 <?php include(dirname(__FILE__) . '/lib/projects.php'); ?>
 			</section>
 
+			<section id="publications">
+				<h1>Publications (<a href="http://orcid.org/0000-0002-0862-3195">ORCID 0000-0002-0862-3195)</a></h1>
+<?php include(dirname(__FILE__) . '/lib/publications.php'); ?>
+			</section>
+
 			<section id="experience">
 				<h1>Experience</h1>
 <?php include(dirname(__FILE__) . '/lib/experience.php'); ?>
