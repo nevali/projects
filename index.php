@@ -5,6 +5,7 @@
 		<meta charset="utf-8">
 		<title>Projects • Mo McRoberts</title>
 		<link rel="stylesheet" href="styles.css" type="text/css">
+		<link rel="stylesheet" href="print.css" type="text/css" media="print">
 	    <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css" type="text/css">
 		<link href="https://fonts.googleapis.com/css?family=Assistant:300" rel="stylesheet">
 	 	<meta name="viewport" content="width=device-width,initial-scale=1">
