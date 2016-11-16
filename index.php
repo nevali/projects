@@ -13,7 +13,7 @@
 	<body>
 		<header>
 			<h1>Mo McRoberts</h1>
-			<h2>Technical architect, digital strategist, technologist</h2>
+			<h2>Music • Broadcasting • Technology</h2>
 		</header>
 		<main>
 	 		<section id="profile">
