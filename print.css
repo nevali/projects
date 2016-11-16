@@ -32,3 +32,10 @@ section.project > div.img {
 	top: 1em;
 }
 
+section#profile {
+	max-width: inherit;
+}
+section#contact {
+	position: static;
+	max-width: inherit;
+}
