@@ -175,7 +175,7 @@ span.logo {
 }
 
 @media screen and (max-width: 50em) {
-	section#profile {
+	#frontmatter {
 		max-width: inherit;
 	}
 	section#contact {
