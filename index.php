@@ -52,6 +52,11 @@ else
 <?php include(dirname(__FILE__) . '/lib/experience.php'); ?>
 			</section>
 
+			<section id="references">
+				<h1>References</h1>
+<?php readfile(dirname(__FILE__) . '/parts/_references.html'); ?>
+			</section>
+
 		</main>
 	</body>
 </html>
