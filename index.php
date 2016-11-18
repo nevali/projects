@@ -29,9 +29,6 @@ else
 }
 ?>
 	 			</section>
-	 			<section id="interests">
-<?php readfile(dirname(__FILE__) . '/parts/_interests.html'); ?>
-	 			</section>
 			</div>
 	 		<section id="contact">
 <?php readfile(dirname(__FILE__) . '/parts/_contact.html'); ?>
@@ -43,7 +40,10 @@ else
 			</section>
 
 			<section id="publications">
-				<h1>Publications (<a href="http://orcid.org/0000-0002-0862-3195">ORCID 0000-0002-0862-3195)</a></h1>
+				<h1>Publications</h1>
+				<ul class="fa-ul">
+					<li class="orcid"><span class="fa fa-li fa-barcode"></span>ORCID: <a href="http://orcid.org/0000-0002-0862-3195">0000-0002-0862-3195</a></li>
+				</ul>
 <?php include(dirname(__FILE__) . '/lib/publications.php'); ?>
 			</section>
 
@@ -51,6 +51,10 @@ else
 				<h1>Employment experience</h1>
 <?php include(dirname(__FILE__) . '/lib/experience.php'); ?>
 			</section>
+
+ 			<section id="interests">
+<?php readfile(dirname(__FILE__) . '/parts/_interests.html'); ?>
+ 			</section>
 
 			<section id="references">
 				<h1>References</h1>
