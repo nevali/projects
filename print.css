@@ -4,9 +4,6 @@ a:link, a:visited {
 main>section {
 	page-break-after: always;
 }
-main>section#profile {
-	page-break-after: inherit;
-}
 section.project {
 	float: none;
 	clear: left;

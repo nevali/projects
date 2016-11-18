@@ -28,7 +28,7 @@ main > h2, header > h2 {
 	margin: 0.5em 0;
 	color: #666;
 }
-main > section {
+main > section, #frontmatter > section {
 	clear: both;
 	margin-top: 2em;
 }
@@ -36,7 +36,7 @@ main p {
 	max-width: 60em;
 	line-height: 1.4;
 }
-main > section > h1 {
+main > section > h1, #frontmatter > section > h1 {
 	font-weight: lighter;
 	font-size: 24px;
 	margin: 0.5em 0;
@@ -56,7 +56,7 @@ main {
 	position: relative;
 }
 
-section#profile {
+#frontmatter {
 	max-width: 60%;
 	margin-top: 0;
 	min-height: 10em;
